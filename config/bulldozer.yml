@@ -92,12 +92,12 @@ options:
   #       labels: ["do not merge"]
 
 # Optional configuration to emit metrics to datadog
-datadog:
-  # Database endpoint
-  address: "127.0.0.1:8125"
-  # The metric flush frequency. Accepts any string
-  # parseable by https://golang.org/pkg/time/#ParseDuration
-  interval: "10s"
-  # Tags to include
-  tags:
-    - "bulldozer"
+# datadog:
+#   # Database endpoint
+#   address: "127.0.0.1:8125"
+#   # The metric flush frequency. Accepts any string
+#   # parseable by https://golang.org/pkg/time/#ParseDuration
+#   interval: "10s"
+#   # Tags to include
+#   tags:
+#     - "bulldozer"
