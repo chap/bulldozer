@@ -1,5 +1,5 @@
 build:
   docker:
-    web: Dockerfile
+    web: docker/Dockerfile
 run:
   web: build/linux-amd64/bulldozer server --config /secrets/bulldozer.yml
