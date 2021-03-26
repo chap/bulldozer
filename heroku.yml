@@ -2,4 +2,4 @@ build:
   docker:
     web: Dockerfile
 run:
-  web: BULLDOZER_PORT=$PORT build/linux-amd64/bulldozer server
+  web: BULLDOZER_PORT=$PORT bulldozer server
